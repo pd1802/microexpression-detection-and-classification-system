@@ -1,0 +1,43 @@
+AffectNet (Best for Deep Learning Training)
+Best for: High-quality deep learning models
+Classes: 8 emotions (Neutral, Happy, Sad, Surprise, Fear, Disgust, Anger, Contempt)
+Size: ~1 million images
+Annotations: Manually labeled + automatic annotations
+
+Pros:
+Largest dataset for emotion recognition
+Diverse real-world images (lighting, occlusion, ethnicity)
+
+Cons:
+Requires high computational power
+Unbalanced classes (Neutral & Happy dominate)
+
+
+
+FER2013 (Good for Quick Prototyping)
+Best for: Lightweight models & testing
+Classes: 7 emotions (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral)
+Size: 35,887 images (48x48 grayscale)
+
+Pros:
+Small size → Fast training
+Available in Kaggle datasets
+
+Cons:
+Lower image quality
+Limited dataset diversity
+
+
+
+
+RAF-DB (Best for Realistic Face Expressions)
+Best for: Real-world facial emotion analysis
+Classes: 7 basic + compound emotions
+Size: ~30,000 images
+
+Pros:
+High-resolution images
+Well-annotated dataset
+
+Cons:
+Smaller than AffectNet
